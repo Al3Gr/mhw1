@@ -116,6 +116,11 @@ header h1{
     position: relative;
 }
 
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
 #photo_profile {
     height: 100px;
     width: 100px;
@@ -214,7 +219,7 @@ footer p span {
     margin-bottom: 20px;
 }
 
-.information .final_valutation {
+.information .synophis {
     margin-bottom: 20px;
     display: inline-block;
     color: limegreen;
@@ -223,33 +228,6 @@ footer p span {
     letter-spacing: 1.3px;
 }
 
-.image {
-    width: 100%;
-    height: 470px;
-    background-size: cover;
-    border-radius: 8px;
-    background-position: center;
-}
-
-#image_1 {
-    background-image: url(image_1.jpg);
-}
-
-#image_2 {
-    background-image: url(image_2.jpg);
-}
-
-#image_3 {
-    background-image: url(image_3.jpg);
-}
-
-#image_4 {
-    background-image: url(image_4.jpg);
-}
-
-#image_5 {
-    background-image: url(image_5.jpg);
-}
 
 #bottom_logo {
     height: 40px;
